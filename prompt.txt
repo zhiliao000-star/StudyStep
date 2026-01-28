@@ -1,0 +1,65 @@
+You are a senior mobile app developer.
+
+Build a cross-platform mobile app called “StudyStep”.
+
+APP PURPOSE
+StudyStep helps students understand homework step by step using AI.
+It focuses on learning and explanations, not just giving answers.
+
+TARGET USERS
+Middle School, High school and college students.
+
+PLATFORMS
+iOS and Android.
+
+
+CORE FEATURES (MVP ONLY)
+1. Home screen with:
+   - “Take Photo” button (camera)
+   - “Upload Image” button (gallery)
+   - Optional text input field
+
+2. Image + Text Processing:
+   - User submits an image of a homework problem (math, science, or general study question)
+   - Image is sent to the AI API
+   - AI returns a step-by-step explanation
+
+3. AI Behavior Rules:
+   - Always explain step by step
+   - Never give just a final answer
+   - Use simple, student-friendly language
+   - Encourage learning, not cheating
+   - Ask at the end: “Would you like me to explain this another way or try a similar problem?”
+
+4. Response Screen:
+   - Display AI explanation in readable format
+   - Use numbered steps
+   - Allow user to ask a follow-up question
+
+5. Usage Limits:
+   - Hardcode a free daily limit (e.g. 3 uses/day)
+   - Show a message when limit is reached
+
+UI REQUIREMENTS
+- Clean, minimal, student-friendly design
+- Light theme
+- Large readable text
+- Simple navigation (no tabs)
+
+NON-GOALS (DO NOT IMPLEMENT)
+- No social features
+- No ads
+- No advanced analytics
+- No user accounts (unless required minimally)
+
+DELIVERABLE
+Provide:
+- Full Flutter project structure
+- Key Dart files (main.dart, screens, services)
+- AI API integration example
+- Clear comments explaining each part
+
+IMPORTANT
+Keep the code simple, readable, and production-ready.
+Do not add features beyond what is listed.
+
